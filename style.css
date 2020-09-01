@@ -1,7 +1,32 @@
 body {
-    background-color: greenyellow;
+    background-image: url("ignasi_pattern_s.png");
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#mainbox {
-    background-color: lightgrey;
+.navbar-brand {
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.header {
+    color: teal;
+    font-weight: bold;
+}
+
+.maintext {
+    line-height: 150%;
+    font-family: "roboto", sans-serif;
+}
+
+footer {
+    height: 5%;
+    width: 100%;
+    background-color: #666666;
+    border-top-style: solid;
+    border-top-color: teal;
+}
+
+.copyright {
+    color: #b3b3b3;
 }

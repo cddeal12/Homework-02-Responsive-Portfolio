@@ -6,17 +6,22 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
             <!-- Creates a navbar using Bootstrap with links to the three pages of the portfolio, the current page links to itself-->
-            <nav class='navbar navbar-expand-lg navbar-light bg-light '>
-                <a class='navbar-brand'>Caleb Deal</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class='navbar-brand' style="color: white;">Caleb Deal</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- A list of Links included on the navbar, linking to other pages of the portfolio -->
-                <ul class="navbar-nav ml-auto float-right">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item">
                       <a class="nav-link" href="#">Contact</a>
                     </li>
@@ -27,30 +32,59 @@
                         <a class="nav-link" href="#">About</a>
                       </li>
                 </ul>
+                </div>
             </nav>
 
-        <!-- Container class to hold the content according to Bootstrap formatting -->
+        <!-- Container class to hold the majority of the content according to Bootstrap formatting -->
         <container class="container">
 
+            <!-- A div with the class 'row' used to limit the length of the screen that the body of the page will fill -->
             <div class="row">
-            <main class="col-sm-6 my-5 ml-5" id="mainbox">
-                <h1>About Me</h1>
-                <hr>
-                <!-- This div is a row to allow for the paragraph and image to appear next to one another -->
-                <div class="row">
-                    <img src="https://via.placeholder.com/150" class="col-6" style="width: 100%;">
-                    <p class="col-6">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam id pariatur 
-                        officia, temporibus sapiente consequuntur mollitia error modi est 
-                        repudiandae facere magnam et impedit sunt nobis deleniti dolores quisquam porro?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ab quisquam 
-                        eum, eos voluptates sunt accusamus at expedita a atque minima odio maxime tempora, 
-                        harum possimus perspiciatis consequuntur. Quos, quis!
-                    </p>
-                </div>
-            </main>
+
+                <!-- Main element containing the content for this page, an image and paragraph. -->
+                <main class="col-sm-8 my-5 mr-5 ml-5 bg-light" id="mainbox">
+                    <h1 class="header">About Me</h1>
+
+                    <!-- Page Break -->
+                    <hr>
+
+                    <!-- This div is a row to allow for the paragraph and image to appear next to one another -->
+                    <div class="row">
+                        <content class="col-sm-12">
+                            <div class="float-left">
+                                <img src="https://via.placeholder.com/150" class="ml-2 p-1">
+                            </div>
+                            
+                            <article class="maintext">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, 
+                                    dignissimos. Velit eaque, aperiam mollitia excepturi 
+                                    repudiandae dolores labore voluptatum sapiente accusantium, vero molestias 
+                                    architecto explicabo illo, consectetur voluptate consequuntur provident! 
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Magnam error iure fugit nemo ipsa esse ad soluta tenetur numquam
+                                    sunt. Accusamus esse odio, provident est necessitatibus natus repudiandae
+                                    adipisci tempora! Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                    Aspernatur libero animi sunt veniam quidem debitis qui nesciunt amet quaerat 
+                                    sit ipsam nostrum nisi odio at rerum, asperiores architecto consequatur. Quasi 
+                                    cum itaque odio numquam vel sit debitis, veritatis eveniet rem ipsam voluptatum 
+                                    corrupti pariatur? Minima, eum. Dolor tempore quos deserunt.
+                            </article>
+                            
+                        </content>
+                        
+                    </div>
+                </main>
+
             </div>
 
         </container>
+        
+        <!-- Element outside the container so as to fill the entire width of the screen as a footer -->
+        <footer class="fixed-bottom">
+            <p class="copyright">
+                &copy; Copyright 
+            </p>
+        </footer>
+
     </body>
 </html>
