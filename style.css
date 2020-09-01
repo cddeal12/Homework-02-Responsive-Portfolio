@@ -1,3 +1,7 @@
-.bg-light {
-    background-color: darkgreen;
+body {
+    background-color: greenyellow;
+}
+
+#mainbox {
+    background-color: lightgrey;
 }
