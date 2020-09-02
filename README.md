@@ -7,3 +7,6 @@ The main challenge in this portfolio project was learning and grappling with Boo
 
 # Other Bootstrap
 Bootstrap's tools for creating buttons, navs, and forms were also used. The navbar also uses the tools for collapsible navbars, forcing the links into a collapsible menu button at smaller screen sizes. The tools for forms and buttons were used to create the majority of the content on the contact page, and to label each field that users can type into. It is important to note that the form contains a submit button but does not actually function, as the ability to take in the users information is beyond my ability and the scope of this project.
+
+# Validation Error
+Upon validating the html from this project, an error was reported that claimed a container class could not be assigned within the body of the html document. I investigated this, but found no issues within the site and had been taught to use the container class in that way to allow Bootstrap to function properly within it. For these reasons, and because I could not determine what, if any, issues were being caused by this error, I elected to leave the index.html as it was.
