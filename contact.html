@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Caleb Deal About</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <!-- Creates a navbar using Bootstrap with links to the three pages of the portfolio, the current page links to itself-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="navbar-header">
+
+                    <a class='navbar-brand' style="color: white;">Caleb Deal</a>
+
+                </div>
+
+                <!-- Navbar buton for collapsed links after the Large breakpoint -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- A list of Links included on the navbar, linking to other pages of the portfolio -->
+                <div class="collapse navbar-collapse" id="main-navbar">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        <!-- Container class to hold the majority of the content according to Bootstrap formatting -->
+        <container class="container">
+
+            <!-- A div with the class 'row' used to limit the length of the screen that the body of the page will fill -->
+            <div class="row no-gutters">
+
+                <!-- Main element containing the content for this page, a box with forms. -->
+                <main class="col-sm-8 my-5 mr-5 ml-5 bg-light" id="mainbox">
+
+                    <h1 class="header ml-3 my-3">Contact</h1>
+
+                    <hr>
+
+                    <form class="m-4">
+                        <div class="form-group">
+                            <label for="name-input" style="font-family: 'roboto', sans-serif;">Name</label>
+                            <input type="name" class="form-control" id="name-input" aria-describedby="emailHelp" placeholder="Enter Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email-input" style="font-family: 'roboto', sans-serif;">Email Address</label>
+                            <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+
+                        <div class="form-group" style="width: 100%;">
+                            <label for="message-input" style="font-family: 'roboto', sans-serif;">Message</label>
+                            <textarea class="form-control" id="message-input" rows="4"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn submitbtn">Submit</button>
+                    </form>
+                </main>
+
+            </div>
+
+        </container>
+        
+        <!-- Element outside the container so as to fill the entire width of the screen as a footer -->
+        <footer class="fixed-bottom">
+            &copy; Copyright
+        </footer>
+
+
+        <!-- Javascript links from Bootstrap website, for navbar functionality -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>

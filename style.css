@@ -33,3 +33,9 @@ hr {
     width: 80%;
     margin: auto;
 }
+
+.submitbtn {
+    border-radius: 0px;
+    background-color: teal;
+    color: white;
+}
