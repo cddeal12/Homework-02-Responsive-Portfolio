@@ -28,3 +28,8 @@ footer {
     color: #b3b3b3;
     text-align: center;
 }
+
+hr {
+    width: 80%;
+    margin: auto;
+}
