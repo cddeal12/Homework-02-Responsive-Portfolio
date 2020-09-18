@@ -1,17 +1,22 @@
 body {
-    background-image: url("ignasi_pattern_s.png");
+    background-color: #313E50;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.navbar-brand {
-    background-color: teal;
+.navbar {
+    background-color: #72A98F;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
 
 .header {
-    color: teal;
+    color: white;
+    background-color: #72A98F;
     font-weight: bold;
+}
+
+.main-box {
+    background-color: #EA526F;
 }
 
 .maintext {
@@ -22,9 +27,9 @@ body {
 footer {
     height: 5%;
     width: 100%;
-    background-color: #666666;
+    background-color: #72A98F;
     border-top-style: solid;
-    border-top-color: teal;
+    border-top-color: #EA526F;
     color: #b3b3b3;
     text-align: center;
 }
@@ -38,4 +43,10 @@ hr {
     border-radius: 0px;
     background-color: teal;
     color: white;
+}
+
+.portfolio-img {
+    border-style: solid;
+    border-width: 3px;
+    border-color:  #EA526F;
 }
